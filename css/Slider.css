@@ -1,0 +1,86 @@
+.ec-mainbanner {
+	float: left;
+	width: 100%;
+}
+.ec-transparent-color {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: 0.88;
+}
+.ec-caption {
+	left: 0;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	z-index: 9999;
+	text-align: left;
+	margin-top: -105px;
+}
+.caption-inner-wrap {
+	width: 50%;
+	display: inline-block;
+}
+.ec-caption-image {
+	float: right;
+	width: 50%;
+	margin: -65px 0px 0px 0px;
+}
+.caption-inner-wrap time {
+	color: #fff;
+	padding: 11px 20px 9px 20px;
+	line-height: 1;
+	float: left;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.caption-inner-wrap h1 {
+	font-size: 48px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.caption-inner-wrap p {
+	font-size: 14px;
+	color: #fff;
+	margin-bottom: 32px;
+}
+.caption-inner-wrap a {
+	float: left;
+	padding: 13px 26px 12px 26px;
+	color: #fff;
+	line-height: 1;
+	position: relative;
+}
+.caption-inner-wrap a:before {
+	content: "\f105";
+	font-family: FontAwesome;
+	position: absolute;
+	right: 2px;
+	top: -5px;
+	font-size: 16px;
+	-webkit-transform: rotate(-42deg);
+	   -moz-transform: rotate(-42deg);
+	    -ms-transform: rotate(-42deg);
+	     -o-transform: rotate(-42deg);
+	        transform: rotate(-42deg);
+}
+.caption-inner-wrap a:after {
+	content: "\f105";
+	font-family: FontAwesome;
+	position: absolute;
+	right: 2px;
+	bottom: -2px;
+	font-size: 16px;
+	-webkit-transform: rotate(40deg);
+	   -moz-transform: rotate(40deg);
+	    -ms-transform: rotate(40deg);
+	     -o-transform: rotate(40deg);
+	        transform: rotate(40deg);
+}

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soccer Club</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/color.css" rel="stylesheet">
+    <link href="css/flexslider.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/dl-menu.css" rel="stylesheet">
+    <link href="css/contact_banner.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="css/Slider.css"rel="stylesheet">
+    <link href="css/Navbar.css";
+    <link href="css/owl.carousel.css" rel="stylesheet">
+</head>
+<body>
+   
+    <div class="ec-main-wrapper">
+        <!-- Header -->
+        <header id="ec-header">
+            <div class="ec-main-navsection">
+                <div class="container">
+                <a href="#" class="ec-logo"><img src="images/logo-1.png" alt=""></a>
+                <div class="ec-right-section">
+                <nav class="ec-navigation">
+                <ul>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="gallery.php">Grounds</a>
+                </li>
+                <li><a href="Coaches.php">Coaches</a>
+                </li>
+                <li><a href="player.php">Players</a>
+                </li>
+                <li><a href="about-us.php">about us</a></li>
+                <li><a href="contact-us.php">contact us</a>
+                </li>
+                <li><a href="login.php">Login</a>
+                </li>
+                </ul>
+                </nav>
+                
+                <ul class="ec-user-section">
+                <li><a href="#" class="ec-search-popup-btn"><i class="fa fa-search"></i></a>
+                <form class="ec-search-popup" method="post">
+                <input type="text" placeholdar="search">
+                <input type="submit" value="">
+                <i class="fa fa-search"></i>
+                </form>
+                </li>
+                </ul>
+                </div>
+                </div>
+                </div>
+        </header>
+
+        <div class="ec-mini-header">
+            <span class="ec-blue-transparent"></span>
+            <div class="container">
+            <div class="row">
+            <div class="col-md-12">
+            <div class="ec-mini-title">
+            <h1>Contact Us </h1>
+            </div>
+            <div class="ec-breadcrumb">
+                <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>Contact Us </li>
+                </ul>
+            </div>
+            </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="ec-main-content">
+            
+            <div class="ec-main-section">
+            <div class="container">
+            <div class="row">
+            <div class="col-md-12">
+            <div class="ec-simple-title">
+            <h2>Contact Info</h2>
+            <p> let's get this conversation started. Tell us a bit about yourself, and <br> we'll get in touch as soon as we can. </p>
+            </div>
+            </div>
+            <div class="col-md-12">
+            
+            <div class="ec-form">
+            <div class="ec-fancy-title">
+            <h2>Contact Form</h2> </div>
+            <form action="./code.php" method="POST">
+            <p>
+            <input type="text" required name="username" placeholder="Your Name" > </p>
+            <p>
+            <input type="email" name="email" placeholder="Enter Email" required /> </p>
+            <p>
+            <input type="tel" name="phoneNumber" placeholder="Phone Number" required> </p>
+            <p class="ec-comment">
+            <textarea placeholder="Comment" name="comment"></textarea>
+            </p>
+            <p class="ec-submit">
+            <input type="submit" value="Send" name="contact" class="ec-bgcolor"> </p>
+            </form>
+            </div>
+            
+            </div>
+            </div>
+            </div>
+            </div>
+            
+        </div> -->
+
+    <footer id="ec-footer">        
+        <div class="ec-footer-widget">
+        <div class="container">
+        <div class="row">
+        <aside class="widget col-md-4 ec-recentnews_widget">
+        <div class="ec-section-heading">
+        <h2>Recently Events</h2></div>
+        <ul>
+        <li style="list-style: none;">
+        <figure>
+        <a href="#"><img src="extra-images/recent-widget-1.jpg" alt=""></a>
+        </figure>
+        <section>
+        <h6><a href="#">United, Palace Aim To Rebound From Setbacks</a></h6>
+        <span><i class="fa fa-clock-o"></i> 2 days ago</span>
+        </section>
+        </li>
+        <li style="list-style: none;">
+        <figure>
+        <a href="#"><img src="extra-images/recent-widget-2.jpg" alt=""></a>
+        </figure>
+        <section>
+        <h6><a href="#">The summer of 2014 all about.</a></h6>
+        <span><i class="fa fa-clock-o"></i> 2 days ago</span>
+        </section>
+        </li>
+        <li style="list-style: none;">
+        <figure>
+        <a href="#"><img src="extra-images/recent-widget-3.jpg" alt=""></a>
+        </figure>
+        <section>
+        <h6><a href="#">Sevilla finished fifth and just out of the.</a></h6>
+        <span><i class="fa fa-clock-o"></i> 2 days ago</span>
+        </section>
+        </li>
+        </ul>
+        </aside>
+        <aside class="widget col-md-4 widget_categories">
+        <div class="ec-section-heading">
+        <h2>CATEGORY</h2></div>
+        <ul>
+        <li style="list-style: none;"><a href="#">Boxing</a> 03</li>
+        <li style="list-style: none;"><a href="#">Championship</a> 05</li>
+        <li style="list-style: none;"><a href="#">Cycling</a> 03</li>
+        <li style="list-style: none;"><a href="#">Football</a> 19</li>
+        <li style="list-style: none;"><a href="#">NFL</a> 02</li>
+        <li style="list-style: none;"><a href="#">Golf</a> 11</li>
+        <li style="list-style: none;"><a href="#">Premier League</a> 12</li>
+        </ul>
+        </aside>
+        <aside class="widget col-md-4 widget_text_info">
+        <div class="ec-section-heading">
+        <h2>Contact</h2></div>
+        <ul>
+        <li style="list-style: none;">
+        <i class="fa fa-map-marker"></i>
+        <span>177 Desoto Health Care 7805 Southcrest Parkway Southaven, MS (Mississippi) 38671</span>
+        </li>
+        <li style="list-style: none;">
+        <i class="fa fa-phone"></i>
+        <span>(907) 904-6163 (660) 567-1244</span>
+        </li>
+        </ul>
+        </aside>
+        </div>
+        </div>
+        </div>
+    </footer>
+    </div>
+    <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="script/jquery.js"></script>
+<script src="script/modernizr.js"></script>
+<script src="script/bootstrap.min.js"></script>
+<script src="script/jquery.dlmenu.js"></script>
+<script src="script/flexslider-min.js"></script>
+<script src="script/jquery.prettyphoto.js"></script>
+<script src="script/waypoints-min.js"></script>
+<script src="script/owl.carousel.min.js"></script>
+<script src="script/jquery.countdown.min.js"></script>
+<script src="script/fitvideo.js"></script>
+<script src="script/newsticker.js"></script>
+<script src="script/skills.js"></script>
+<script src="script/functions.js"></script>
+</body>
+</html>

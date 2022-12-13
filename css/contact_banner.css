@@ -1,0 +1,45 @@
+/* Sub Header */
+.ec-mini-header {
+    background-image: url("soccer_images.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 75px 0px 69px 0px;
+    position: relative;
+    
+}
+span.ec-blue-transparent {
+    background-color: rgba(0,0,0,0.40);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top:0;
+}
+.ec-mini-title,.ec-mini-title h1,.ec-mini-header,.ec-breadcrumb {
+    float: left;
+    width: 100%;
+}
+.ec-mini-title h1 {
+    font-size: 30px;
+    color: #ffffff;
+    line-height: 1.2;
+    margin-bottom: 2px;
+}
+.ec-breadcrumb ul { display: inline-block; }
+.ec-breadcrumb ul li {
+    display: inline-block;
+    color: #ffffff;
+    list-style: none;
+}
+.ec-breadcrumb ul li:before {
+    color: #ededef;
+    content: "\f105";
+    font-family:FontAwesome ;
+    font-size: 12px;
+    padding: 10px;
+}
+.ec-breadcrumb ul li:first-child:before        {display: none;}
+.ec-breadcrumb a {
+    color: #adb5db;
+    font-size: 14px;
+}
