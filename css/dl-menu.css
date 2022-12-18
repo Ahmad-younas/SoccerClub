@@ -762,10 +762,6 @@ All this is done for any sub-level being entered.
 .no-js .as-menuwrapper li > a:not(:only-child):after {
 	content: '';
 }
-
-/* Colors for demos */
-
-/* Demo 2 */
 .demo-2 .as-menuwrapper button {
 	background: #e86814;
 }

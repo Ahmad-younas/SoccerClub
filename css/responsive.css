@@ -1,6 +1,4 @@
-/*	Media 768Px Start */
 @media (min-width: 768px) and (max-width: 990px) {
-	/* Header */
 	.as-menuwrapper { display: inline-block; float: left; max-width: 65px; }
 	.ec-navigation,.caption-inner-wrap a,.ec-caption { display: none; }
 	.ec-topsection { text-align: center; }

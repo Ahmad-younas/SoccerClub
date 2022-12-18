@@ -1,4 +1,24 @@
-<?php include("./header.php") ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soccer Club</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/color.css" rel="stylesheet">
+    <link href="css/flexslider.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/dl-menu.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="css/Slider.css"rel="stylesheet">
+    <link href="css/Navbar.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/contact_banner.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+
+</head>
 <body>
     <div class="ec-main-wrapper">
         <!-- Header -->
@@ -9,17 +29,17 @@
                 <div class="ec-right-section">
                 <nav class="ec-navigation">
                 <ul>
-                <li><a href="index.php">Home</a></li>
-                <li><a href="grounds.php">Grounds</a>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="grounds.html">Grounds</a>
                 </li>
-                <li><a href="Coaches.php">Coaches</a>
+                <li><a href="Coaches.html">Coaches</a>
                 </li>
-                <li><a href="player.php">Players</a>
+                <li><a href="player.html">Players</a>
                 </li>
                 <li><a href="about-us.php">about us</a></li>
                 <li><a href="contact-us.php">contact us</a>
                 </li>
-                <li><a href="login.php">Login</a>
+                <li><a href="login.html">Login</a>
                 </li>
                 </ul>
                 </nav>
@@ -102,7 +122,8 @@
             </div>
         </div>
     </div>  
-    <div class="container">
+    <div class="container" style="margin-bottom: 20px;">
+        <div class="row" style="display:flex; flex-direction:row;justify-content:center"><h1>PLAYER STATISTICS</h1></div>
         <div class="row" style="display:flex; flex-direction:row;justify-content:center">
                 <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
         </div>
@@ -130,7 +151,6 @@
         <h3><a href="#">KELVIN DAVIS</a></h3>
         <small>GOALKEEPER</small>
         </div>
-        <span class="ec-goal-counter ec-bgcolor">06</span>
         <span class="ec-plyer-info">Born May 31, 1988 <br> Sahiwal, Pakistan</span>
         <span class="ec-plyer-info"><br> <a href="./player-Details.php">See Details</a></span>
         </div>
@@ -146,7 +166,6 @@
         <h3><a href="./player-Details.php">Debuchy Profile</a></h3>
         <small>Defender</small>
         </div>
-        <span class="ec-goal-counter ec-bgcolor">12</span>
         <span class="ec-plyer-info">Born August 20 , 1999 <br> Lahore, Pakistan</span>
         <span class="ec-plyer-info"><br> <a href="./player-Details.php">See Details</a></span>
         </div>
@@ -162,7 +181,6 @@
         <h3><a href="./player-Details.php">Laurent Koscielny</a></h3>
         <small>Midfielder</small>
         </div>
-        <span class="ec-goal-counter ec-bgcolor">10</span>
         <span class="ec-plyer-info">Born september 3, 1995 <br> Karachi, Pakistan</span>
         <span class="ec-plyer-info"><br> <a href="./player-Details.php">See Details</a></span>
         </div>
@@ -178,7 +196,6 @@
         <h3><a href="./player-Details.php">Tomas Rosicky</a></h3>
         <small>Safi dk</small>
         </div>
-        <span class="ec-goal-counter ec-bgcolor">08</span>
         <span class="ec-plyer-info">Born July 10, 1980 <br>Okara Pakistan</span>
         <span class="ec-plyer-info"><br> <a href="./player-Details.php">See Details</a></span>
         </div>
@@ -212,7 +229,6 @@
         <h3><a href="#">KELVIN DAVIS</a></h3>
         <small>gOALKEEPER</small>
         </div>
-        <span class="ec-goal-counter ec-bgcolor">06</span>
         <span class="ec-plyer-info">Born August 31, 1988 <br> Medellin, Colombia</span>
         </div>
         </div>
@@ -227,7 +243,6 @@
         <h3><a href="./coachDetail.php">Debuchy Profile</a></h3>
         <small>Defender</small>
         </div>
-        <span class="ec-goal-counter ec-bgcolor">12</span>
         <span class="ec-plyer-info">Born August 31, 1988 <br> Medellin, Colombia</span>
         </div>
         </div>
@@ -242,7 +257,6 @@
         <h3><a href="./coachDetail.php">Laurent Koscielny</a></h3>
         <small>Midfielder</small>
         </div>
-        <span class="ec-goal-counter ec-bgcolor">10</span>
         <span class="ec-plyer-info">Born August 31, 1988 <br> Medellin, Colombia</span>
         </div>
         </div>
@@ -257,7 +271,6 @@
         <h3><a href="./coachDetail.php">Tomas Rosicky</a></h3>
         <small>Safi dk</small>
         </div>
-        <span class="ec-goal-counter ec-bgcolor">08</span>
         <span class="ec-plyer-info">Born August 31, 2005 <br>sahiwal</span>
         </div>
         </div>
@@ -268,4 +281,85 @@
         </div>
         </div>
     </div>
-<?php include("./footer.php") ?>
+    <footer id="ec-footer">        
+        <div class="ec-footer-widget">
+            <div class="container">
+                <div class="row">
+                    <aside class="widget col-md-4 ec-recentnews_widget">
+                        <div class="ec-section-heading">
+                        <h2>Recently Events</h2></div>
+                        <ul>
+                        <li style="list-style: none;">
+                        <figure>
+                        <a href="#"><img src="extra-images/recent-widget-1.jpg" alt=""></a>
+                        </figure>
+                        <section>
+                        <h6><a href="#">United, Palace Aim To Rebound From Setbacks</a></h6>
+                        <span><i class="fa fa-clock-o"></i> 2 days ago</span>
+                        </section>
+                        </li>
+                        <li style="list-style: none;">
+                        <figure>
+                        <a href="#"><img src="extra-images/recent-widget-2.jpg" alt=""></a>
+                        </figure>
+                        <section>
+                        <h6><a href="#">The summer of 2014 all about.</a></h6>
+                        <span><i class="fa fa-clock-o"></i> 2 days ago</span>
+                        </section>
+                        </li>
+                        <li style="list-style: none;">
+                        <figure>
+                        <a href="#"><img src="extra-images/recent-widget-3.jpg" alt=""></a>
+                        </figure>
+                        <section>
+                        <h6><a href="#">Sevilla finished fifth and just out of the.</a></h6>
+                        <span><i class="fa fa-clock-o"></i> 2 days ago</span>
+                        </section>
+                        </li>
+                        </ul>
+                    </aside>
+                    <aside class="widget col-md-4 widget_categories">
+                        <div class="ec-section-heading">
+                        <h2>CATEGORY</h2></div>
+                        <ul>
+                        <li style="list-style: none;"><a href="#">Coaches</a></li>
+                        <li style="list-style: none;"><a href="#">Grounds</a></li>
+                        <li style="list-style: none;"><a href="#">Players</a></li>
+                        <li style="list-style: none;"><a href="#">Match Details</a></li>
+                        <li style="list-style: none;"><a href="#">Weather</a> 02</li>
+                        <li style="list-style: none;"><a href="#">Match Statistics</a> 11</li>
+                        </ul>
+                        </aside>
+                        <aside class="widget col-md-4 widget_text_info">
+                        <div class="ec-section-heading">
+                        <h2>Contact</h2></div>
+                        <ul>
+                        <li style="list-style: none;">
+                        <i class="fa fa-map-marker"></i>
+                        <span>Sahiwal,Punjab,Pakistan</span>
+                        </li>
+                        <li style="list-style: none;">
+                        <i class="fa fa-phone"></i>
+                        <span>(+92)3012365478</span>
+                        </li>
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+    <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="script/jquery.js"></script>
+<script src="script/modernizr.js"></script>
+<script src="script/bootstrap.min.js"></script>
+<script src="script/jquery.dlmenu.js"></script>
+<script src="script/flexslider-min.js"></script>
+<script src="script/jquery.prettyphoto.js"></script>
+<script src="script/waypoints-min.js"></script>
+<script src="script/owl.carousel.min.js"></script>
+<script src="script/jquery.countdown.min.js"></script>
+<script src="script/functions.js"></script>
+<script src="script/chart.js"></script>
+</body>
+</html>

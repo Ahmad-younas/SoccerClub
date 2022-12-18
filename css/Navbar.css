@@ -3,6 +3,12 @@
 	width: 100%;
 	position: relative;
 }
+.ec-main-navsection {
+	float: left;
+	width: 100%;
+	background-color: #fcfcfc;
+	height: 100px;
+}
 .ec-main-content {
 	float: left;
 	padding: 50px 0 0 0;
@@ -20,7 +26,7 @@
 	top: 0;
 	width: 100%;
 	z-index: 9999;
-	height: 200px;
+	height: 100px;
 }
 .ec-main-wrapper { position: relative; }
 
