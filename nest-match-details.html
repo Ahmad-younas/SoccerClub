@@ -21,6 +21,7 @@
 </head>
 <body>
     <div class="ec-main-wrapper">
+        <!-- Header -->
         <header id="ec-header">
             <div class="ec-main-navsection">
                 <div class="container">
@@ -35,8 +36,10 @@
                 </li>
                 <li><a href="player.html">Players</a>
                 </li>
-                <li><a href="about-us.html">about us</a></li>
-                <li><a href="contact-us.html">contact us</a>
+                <li><a href="about-us.php">about us</a></li>
+                <li><a href="contact-us.php">contact us</a>
+                </li>
+                <li><a href="./player-cart.html"><img src="./extra-images/cart.png" height="40px" style="padding-bottom: 20px;"></a>
                 </li>
                 <li><a href="login.html">Login</a>
                 </li>
@@ -56,26 +59,37 @@
                 </div>
                 </div>
         </header>
-        <div class=" container" style="padding-top: 150px; padding-bottom: 10px;">
-            <div >
-            <div class="modal-content">
-            <div class="modal-body">
-            <div class="ec-modallogin-form ec-login-popup">
-            <span class="ec-color">Recover your password</span>
-            <form method="POST" action="./code.php">
-            <ul>
-            <li>
-            <input type="text" name="number" placeholder="Enter Your PhoneNumber"> </li>
-            <li>
-            <li>
-            <input type="submit"name="register_User" value="Send"> </li>
-            </ul>
-            </form>
-            </div>
-            </div>
-            </div>       
-            </div>
+
+        <div style="padding-top: 100px;">
+            <img src="./extra-images/divider.png" width="100%">
         </div>
+        <section>
+            <div class="container" style="border: 2px solid  rgb(237, 236, 236); margin-top: 10px; margin-bottom: 10px   ;">
+                <h1 style="color: red; font-size: x-large; margin-top: 30px; font-weight: bold; display: flex; flex-direction: row; justify-content: center;">Next Match Details</h1>
+                <div class="row">
+                    <div class="col-6" style="display: flex; padding: 20px ; font-weight: bold; flex-direction: row; font-weight: bold; justify-content:space-between ;">
+                        <div >
+                        <p>Teams</p>
+                        <p>Time</p>
+                        <p>Date</p>
+                        <p>Place</p>
+                        <p>Stadium</p>
+                        <P>Ticket Prices</P>
+                        <P style="padding-top:  23px;">Are You Interested ?</P>
+                        </div>
+                        <div>
+                            <p>Sahiwal <span>vs</span> Lahore</p>
+                            <p>7PM Night</p>
+                            <p>20 Jan 20223</p>
+                            <p>Lahore</p>
+                            <p>Football</p>
+                            <P>Rs:5000</P>
+                            <input style="margin-top: 10px;" type="submit"name="register_User" value="Book Know">
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </section>
         <footer id="ec-footer">        
             <div class="ec-footer-widget">
                 <div class="container">
@@ -143,18 +157,18 @@
                 </div>
             </div>
         </footer>
-        </div>
-        <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-        <script src="script/jquery.js"></script>
-    <script src="script/modernizr.js"></script>
-    <script src="script/bootstrap.min.js"></script>
-    <script src="script/jquery.dlmenu.js"></script>
-    <script src="script/flexslider-min.js"></script>
-    <script src="script/jquery.prettyphoto.js"></script>
-    <script src="script/waypoints-min.js"></script>
-    <script src="script/owl.carousel.min.js"></script>
-    <script src="script/jquery.countdown.min.js"></script>
-    <script src="script/functions.js"></script>
-    <script src="script/chart.js"></script>
+    </div>
+<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+<script src="script/jquery.js"></script>
+<script src="script/modernizr.js"></script>
+<script src="script/bootstrap.min.js"></script>
+<script src="script/jquery.dlmenu.js"></script>
+<script src="script/flexslider-min.js"></script>
+<script src="script/jquery.prettyphoto.js"></script>
+<script src="script/waypoints-min.js"></script>
+<script src="script/owl.carousel.min.js"></script>
+<script src="script/jquery.countdown.min.js"></script>
+<script src="script/functions.js"></script>
+<script src="script/chart.js"></script>   
 </body>
 </html>

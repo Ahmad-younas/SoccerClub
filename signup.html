@@ -56,40 +56,34 @@
                 </div>
                 </div>
         </header>
-        <div class=" container" style="margin-bottom:30px">
-        <div >
-        <div class="modal-content">
-        <div class="modal-body">
-        <div class="ec-modallogin-form ec-login-popup">
-        <span class="ec-color">Login to Your Account</span>
-        <form method="POST" action="./code.php">
-        <ul>
-        <li>
-        <input type="text" name="username" placeholder="Username"> </li>
-        <li>
-        <input type="email"  name="email" placeholder="Email" style="width: 100%;"> </li>
-        <li>
-        <li>
-        <input type="text" name="PhoneNumber" placeholder="PhoneNumber"> </li>
-        <li>
-        <input type="password"  name="password" placeholder="password"> </li>
-        <li>
-        <li>
-        <input type="password" name="cPassword" placeholder="Enter Password Again"> </li>
-        <li>
-        <li> <a href="#" class="ec-forgot-btn">Forgot Password?</a> </li>
-        <li>        
-        <input type="submit"name="register_User" value="Sign In"> </li>
-        </ul>
-        </form>
-        <span class="ec-color">or try our socials</span>
-        <ul class="ec-login-social-media">
-        <li class="ec-googleplus-color"><a href="#"><i class="fa fa-google-plus-square"></i> Google</a></li>
-        </ul>
-        <p>Not a member yet? <a href="./signup.html">Sign-up Now!</a></p>
-        </div>
-        </div>
-        </div>       
+        <div class=" container" style="padding-top: 150px;">
+            <div >
+                <div class="modal-content">
+                <div class="modal-body">
+                <div class="ec-modallogin-form ec-login-popup">
+                <span class="ec-color">Login to Your Account</span>
+                <form method="POST" action="./code.php">
+
+                <label for="username" class="form-label">Enter User Name</label>
+                <input type="text" id="username" class="form-control" aria-describedby="username" required><br>
+
+                <label for="email" class="form-label">Enter Email</label>
+                <input type="email" id="email" class="form-control" aria-describedby="email" required>
+
+                <label for="number" class="form-label">Enter Phone Number</label>
+                <input type="tel" id="number" class="form-control" aria-describedby="tel" required>
+
+                <label for="inputPassword5" class="form-label">Enter Password</label>
+                <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" required><br>
+
+                <label for="inputPassword5" class="form-label">Enter Password Again </label>
+                <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" required>
+                <input style="margin-top: 10px;" type="submit"name="register_User" value="Sign In">
+                </form>
+                <p>AlReady a member? <a href="./login.html">Login Now!</a></p>
+                </div>
+                </div>
+                </div>       
         </div>
     </div>
     <footer id="ec-footer">        

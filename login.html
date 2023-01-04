@@ -20,7 +20,7 @@
 
 </head>
 <body>
-    < class="ec-main-wrapper">
+    <div class="ec-main-wrapper">
         <header id="ec-header">
             <div class="ec-main-navsection">
                 <div class="container">
@@ -56,33 +56,29 @@
                 </div>
                 </div>
         </header>
-            <div>
-                <div class=" container" style="margin-top:100px">
+              <div class=" container" style="padding-top: 150px; padding-bottom: 10px;">
+            <div >
                 <div class="modal-content">
                 <div class="modal-body">
                 <div class="ec-modallogin-form ec-login-popup">
                 <span class="ec-color">Login to Your Account</span>
                 <form method="POST" action="./code.php">
-                <ul>
-                <li>
-                <input type="text" name="username" placeholder="Username"> </li>
-                <li>
-                <input type="password"  name="password" placeholder="password"> </li>
-                <li> <a href="./forgetpassword.html" class="ec-forgot-btn">Forgot Password?</a> </li>
-                <li>
-                <input type="submit"name="register_User" value="Sign In"> </li>
-                </ul>
+
+
+                <label for="email" class="form-label">Enter Email</label>
+                <input type="email" id="email" class="form-control" aria-describedby="email" required>
+
+                <label for="inputPassword5" class="form-label">Enter Password</label>
+                <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" required><br>
+
+                <input style="margin-top: 10px;" type="submit"name="register_User" value="Sign In">
                 </form>
-                <span class="ec-color">or try our socials</span>
-                <ul class="ec-login-social-media">
-                <li class="ec-googleplus-color"><a href="#"><i class="fa fa-google-plus-square"></i> Google</a></li>
-                </ul>
-                <p>Not a member yet? <a href="./signup.html">Sign-up Now!</a></p>
+                <p>AlReady a member? <a href="./login.html">Login Now!</a></p>
                 </div>
                 </div>
                 </div>       
-                </div>
-            </div>
+        </div>
+        </div>
     <footer id="ec-footer">        
         <div class="ec-footer-widget">
             <div class="container">

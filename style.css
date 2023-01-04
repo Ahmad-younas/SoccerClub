@@ -817,3 +817,12 @@ ul.ec-table-list li .ec-cell:nth-child(2) { width: 50%; }
     border: none;
     line-height: 1;
 }
+input[type="submit"] {
+    padding: 14px 35px 14px 35px;
+    color: #ffffff;
+    font-size: 12px;
+    text-transform: uppercase;
+	background-color: #e95842;
+    border: none;
+    line-height: 1;
+}
