@@ -16,15 +16,14 @@
     <link href="css/Navbar.css" rel="stylesheet">
     <link href="css/owl.carousel.css" rel="stylesheet">
     <link href="css/contact_banner.css" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
-
 </head>
 <body>
     <div class="ec-main-wrapper">
+        <!-- Header -->
         <header id="ec-header">
-            <div class="ec-main-navsection">
+                <div class="ec-main-navsection">
                 <div class="container">
-                <a href="#" class="ec-logo"><img src="./images/logo.png" alt="img" width="200px"/></a>
+                <a href="#" class="ec-logo"><img src="images/logo-1.png" alt=""></a>
                 <div class="ec-right-section">
                 <nav class="ec-navigation">
                 <ul>
@@ -45,8 +44,8 @@
                 
                 <ul class="ec-user-section">
                 <li><a href="#" class="ec-search-popup-btn"><i class="fa fa-search"></i></a>
-                <form class="ec-search-popup">
-                <input type="text" value="Search Key Word" onblur="if(this.value == '') { this.value ='Search Key Word'; }" onfocus="if(this.value =='Search Key Word') { this.value = ''; }">
+                <form class="ec-search-popup" action="POST">
+                <input type="text" placeholdar="Search">
                 <input type="submit" value="">
                 <i class="fa fa-search"></i>
                 </form>
@@ -56,31 +55,70 @@
                 </div>
                 </div>
         </header>
-              <div class=" container" style="padding-top: 150px; padding-bottom: 10px;">
-            <div >
-                <div class="modal-content">
-                    <h1 style="display: flex; justify-content: center; text-transform: capitalize; color: red; padding-top: 10px; font-weight: bolder;">Welcome to Soccer Club</h1>
-                <div class="modal-body">
-                <div class="ec-modallogin-form ec-login-popup">
-                <span class="ec-color">Login to Your Account</span>
-                <form method="POST" action="./code.php">
 
-
-                <label for="email" class="form-label">Enter Email</label>
-                <input type="email" id="email" class="form-control" aria-describedby="email" required>
-
-                <label for="inputPassword5" class="form-label">Enter Password</label>
-                <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" required><br>
-
-                <input style="margin-top: 10px;" type="submit"name="register_User" value="Sign In">
-                </form>
-                <p>AlReady a member? <a href="./login.html">Login Now!</a></p>
-                </div>
-                </div>
-                </div>       
+        <div class="ec-mini-header">
+            <span class="ec-blue-transparent"></span>
+            <div class="container">
+            <div class="row">
+            <div class="col-md-12">
+            <div class="ec-mini-title">
+            <h1>Coaches</h1>
+            </div>
+            <div class="ec-breadcrumb">
+                <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>Coaches Details</li>
+                </ul>
+            </div>
+            </div>
+            </div>
+            </div>
         </div>
+
+
+        <div class="ec-main-content">
+        <div class="ec-main-section">
+        <div class="container">
+        <div class="row">
+        <div class="col-md-12">
+        <div class="ec-fancy-title">
+        <h2>JORGE SAMPAOLI</h2> </div>
+        <div class="ec-plyer-information">
+        <figure>
+        <a href="#"><img src="extra-images/coach4.jpg" alt=""></a>
+        </figure>
+            <div class="ec-plyer-designation">
+                <ul>
+                    <li><small>Birthdate</small> <span> Sep 20, 1985
+                    </span></li>
+                    <li><small>Experience</small> <span>35 Year</span></li>
+                    <li><small>Age</small> <span>45</span></li>
+                    <li><small>Overall win percentage</small> <span> 80.5%.</span></li>
+                    <li><small>NATIONALITY</small> <span>Asian</span></li>
+                    <li><small>HEIGHT</small> <span>1.01 M</span></li>
+                    <li><small>WEIGHT</small> <span>80 KG</span></li>
+                    <li><small>Fee</small> <span> Rs:50000</span></li>
+                </ul>
+            </div>
         </div>
-    <footer id="ec-footer">        
+        <div class="ec-fancy-title">
+        <h2>Coach DESCRIPTION</h2> </div>
+        <div class="ec-detail-editor ec-plyer-information-wrap">
+            <p>Coaches are responsible for planning, organising and delivering an appropriate range of sports activities and programmes for individuals and teams. Typical responsibilities include: teaching relevant skills, tactics and techniques,identifying strengths and weaknesses,
+                advising about health and lifestyle issues,
+                developing training programmes,
+                undertaking administrative tasks.</p>
+            
+        </div>
+    </div>
+    
+    </div>
+    <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+        <h3>You want to Book the Coach</h3>
+        <button type="button" class="btn-danger"><a style="padding: 10px; color: white;" href="./player-cart.html">Book Me Know</a></button>
+    </div>
+</div>
+<footer id="ec-footer">        
         <div class="ec-footer-widget">
             <div class="container">
                 <div class="row">
@@ -135,7 +173,7 @@
                         <ul>
                         <li style="list-style: none;">
                         <i class="fa fa-map-marker"></i>
-                        <span>Sahiwal,Punjab,Pakistan</span>
+                        <span>Sahiwal,Punjab,Pakstan</span>
                         </li>
                         <li style="list-style: none;">
                         <i class="fa fa-phone"></i>
@@ -159,6 +197,5 @@
 <script src="script/owl.carousel.min.js"></script>
 <script src="script/jquery.countdown.min.js"></script>
 <script src="script/functions.js"></script>
-<script src="script/chart.js"></script>
 </body>
-</html>
+</html>       
