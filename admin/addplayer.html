@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+        <title>cms dashboard
+		</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/custom.css">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet">
+  </head>
+  <body>
+  
+
+
+
+<div class="wrapper">
+
+
+<div class="body-overlay"></div>
+
+
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h1><img src="../images/logo.png" class="img-fluid"/></h1>
+            </div>
+            <ul class="list-unstyled components">
+			<li  class="active">
+                    <a href="#" class="dashboard"><i class="material-icons">dashboard</i><span>Dashboard</span></a>
+                </li>
+		
+		      <div class="small-screen navbar-display">
+                <li class="dropdown d-lg-none d-md-block d-xl-none d-sm-block">
+                    <a href="#homeSubmenu0" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+					<i class="material-icons">notifications</i><span> 4 notification</span></a>
+                    <ul class="collapse list-unstyled menu" id="homeSubmenu0">
+                                    <li>
+                                    <a href="#">You have 5 new messages</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">You're now friend with Mike</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Wish Mary on her birthday!</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">5 warnings in Server Console</a>
+                                    </li>
+                    </ul>
+                </li>
+				
+				<li  class="d-lg-none d-md-block d-xl-none d-sm-block">
+                    <a href="#"><i class="material-icons">apps</i><span>apps</span></a>
+                </li>
+				
+				 <li  class="d-lg-none d-md-block d-xl-none d-sm-block">
+                    <a href="#"><i class="material-icons">person</i><span>user</span></a>
+                </li>
+				
+				<li  class="d-lg-none d-md-block d-xl-none d-sm-block">
+                    <a href="#"><i class="material-icons">settings</i><span>setting</span></a>
+                </li>
+				</div>
+			
+			
+                <li>
+                    <a href="./addplayer.html" aria-expanded="false">
+					<i class="material-icons">person_add</i><span>Add Player</span></a>
+                </li>
+                
+                <li>
+                    <a href="./addcoach.html" aria-expanded="false">
+					<i class="material-icons">person_add</i><span>Add Coach</span></a>
+                </li>
+				
+				 <li class="dropdown">
+                    <a href="./addground.html" aria-expanded="false">
+					<i class="material-icons">person_add</i><span>Add Ground</span></a>
+                </li>
+				  <li class="dropdown">
+                    <a href="./registerUser.html" aria-expanded="false">
+					<i class="material-icons">how_to_reg</i><span>Register User</span></a>
+                </li>
+				
+				<li class="dropdown">
+                    <a href="./bookedObject.html" aria-expanded="false">
+					<i class="material-icons">border_color</i><span>Booked Object</span></a>
+                </li>
+               
+			   
+			   
+			   <li class="dropdown">
+                    <a href="./AllCoach.html" aria-expanded="false">
+					<i class="material-icons">grid_on</i><span>All Coaches</span></a>
+                </li>
+               
+			   
+			     <li class="dropdown">
+                    <a href="./AllPlayer.html" aria-expanded="false">
+					<i class="material-icons">content_copy</i><span>All Players</span></a>
+                </li>
+               
+            </ul>
+
+           
+        </nav>
+		
+		
+
+        <!-- Page Content  -->
+        <div id="content">
+		
+		<div class="top-navbar">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="d-xl-block d-lg-block d-md-mone d-none">
+                        <span class="material-icons">arrow_back_ios</span>
+                    </button>
+					
+					<a class="navbar-brand" href="./index.html"> Dashboard </a>
+					
+                    <button class="d-inline-block d-lg-none ml-auto more-button" type="button" data-toggle="collapse"
+					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="material-icons">more_vert</span>
+                    </button>
+
+                    <div class="collapse navbar-collapse d-lg-block d-xl-block d-sm-none d-md-none d-none" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">   
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#" data-toggle="dropdown">
+								<span class="material-icons">person</span>
+								</a>
+                                <ul class="dropdown-menu">
+                                    <li style="display:flex;">
+                                        <a href="../index.html">Home</a>
+                                        <span class="material-icons">home</span>
+                                    </li>
+                                    <li style="display:flex;">
+                                        <a href="../login.html">Logout</a>
+                                        <span class="material-icons">logout</span>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+	    </div>
+			
+			
+			<div class="main-content">
+			
+			<div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="card card-stats">
+                                <div class="card-header">
+                                    <div class="icon icon-warning">
+                                       <span class="material-icons">equalizer</span>
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <p class="category"><strong><a href="./AllCoach.html">All Coaches</a></strong></p>
+                                    <h3 class="card-title">10</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="card card-stats">
+                                <div class="card-header">
+                                    <div class="icon icon-rose">
+                                       <span class="material-icons">shopping_cart</span>
+
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <p class="category"><strong><a href="./bookedObject.html">All Booked Orders</a></strong></p>
+                                    <h3 class="card-title">20</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="card card-stats">
+                                <div class="card-header">
+                                    <div class="icon icon-success">
+                                        <span class="material-icons">
+                                            equalizer</span>
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <p class="category"><strong><a href="./AllPlayer.html">All Players</a></strong></p>
+                                    <h3 class="card-title">11</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="card card-stats">
+                                <div class="card-header">
+                                    <div class="icon icon-info">
+                                    <span class="material-icons"> how_to_reg</span>
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <p class="category"><strong><a href="./registerUser.html">Registered Users</a></strong></p>
+                                    <h3 class="card-title">15</h3>
+                                </div>
+                            </div>
+                        </div>
+             </div>
+					
+					
+					<div class="row ">    
+                        <div class="col-lg-12 col-md-12">
+                            <div class="card" style="min-height: 485px">
+                                <div class="card-header card-header-text">
+                                    <form>
+                                        <div class="form-group">
+                                          <label for="exampleInputEmail1">Name</label>
+                                          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="User Name">
+                                        </div>
+                                        <div class="form-group">
+                                          <label for="exampleInputPassword1">Birth Date</label>
+                                          <input type="date" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleFormControlSelect1">position</label>
+                                            <select class="form-control" id="exampleFormControlSelect1">
+                                              <option selected>GoalKeeper</option>
+                                              <option>Defenders</option>
+                                              <option>Midfielders</option>
+                                              <option>Forwards</option>
+                                              <option>Central Defenders</option>
+                                            </select>
+                                          </div>
+                                          <div class="form-group">
+                                            <label for="exampleInputEmail1">Goals</label>
+                                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Numbers of Goals">
+                                          </div>
+                                          <div class="form-group">
+                                            <label for="exampleInputEmail1">Yellows Cards</label>
+                                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Numbers of Yellows Cards">
+                                          </div>
+                                          <div class="form-group">
+                                            <label for="exampleInputEmail1">Red Card Cards</label>
+                                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Numbers of Red Cards">
+                                          </div>
+                                          <div class="form-group">
+                                            <label for="exampleFormControlSelect1">Nationality</label>
+                                            <select class="form-control" id="exampleFormControlSelect1">
+                                              <option selected>American</option>
+                                              <option>Albanian</option>
+                                              <option>Asian</option>
+                                              <option>German</option>
+                                              <option>Europien</option>
+                                            </select>
+                                          </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Height</label>
+                                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Height ">
+                                          </div>
+                                          <div class="form-group">
+                                            <label for="exampleInputEmail1">Weight</label>
+                                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Weight">
+                                          </div>
+                                          <div class="form-group">
+                                            <label for="exampleInputEmail1">Fee</label>
+                                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Player Fee">
+                                          </div>
+                                        <button type="submit" class="btn btn-primary" style="margin-top: 10px; margin-bottom: 10px;" >Add Player</button>
+                                      </form>
+                                </div>
+                            </div>
+                        </div> 
+                        </div>
+                    </div>	
+					<footer class="footer" style="background-color: red; color:black; font-size: 100px; font-weight: bolder; ">
+                <div class="container-fluid">
+				  <div class="row">
+				<div class="col-md-12">
+				 <p class="copyright d-flex justify-content-center"> &copy 2023 Design by
+                        <a href="#index.html">Soccer Club</a>Admin Dashboard
+                    </p>
+				</div>
+				  </div>
+				    </div>
+            </footer>
+				</div>	
+        </div>
+    </div>
+   <script src="js/jquery-3.3.1.slim.min.js"></script>
+   <script src="js/popper.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/jquery-3.3.1.min.js"></script>
+  
+  
+  <script type="text/javascript">
+  $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+				$('#content').toggleClass('active');
+            });
+			
+			 $('.more-button,.body-overlay').on('click', function () {
+                $('#sidebar,.body-overlay').toggleClass('show-nav');
+            });
+			
+        });
+</script>
+  </body>
+  </html>
+
+
